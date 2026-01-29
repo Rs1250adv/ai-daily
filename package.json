@@ -1,0 +1,12 @@
+{
+  "name": "ai-daily",
+  "version": "1.0.0",
+  "description": "每日AI编程工具资讯",
+  "main": "fetch-news.js",
+  "scripts": {
+    "fetch": "node fetch-news.js",
+    "deploy": "git add -A && git commit -m 'Update' && git push"
+  },
+  "author": "Rs1250adv",
+  "license": "MIT"
+}
