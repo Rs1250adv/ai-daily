@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI 编程工具日报 - 2026-01-29</title>
+  <title>AI 编程工具日报 - 2026-01-30</title>
   <style>
     :root {
       --bg: #0d1117;
@@ -76,10 +76,9 @@
       border-radius: 4px;
       font-size: 0.75rem;
     }
-    .empty {
-      text-align: center;
-      padding: 3rem;
-      color: var(--text-muted);
+    .hot {
+      background: rgba(255, 107, 107, 0.1);
+      color: #ff6b6b;
     }
     footer {
       margin-top: 3rem;
@@ -89,32 +88,117 @@
       color: var(--text-muted);
       font-size: 0.85rem;
     }
-    .archive-link {
-      display: inline-block;
-      margin-top: 1rem;
-      color: var(--accent);
-      text-decoration: none;
-    }
   </style>
 </head>
 <body>
   <div class="container">
     <header>
       <h1>🤖 AI 编程工具日报</h1>
-      <p class="date">2026-01-29</p>
+      <p class="date">2026-01-30</p>
     </header>
     
     <main>
-      
-        <div class="empty">
-          <p>今日暂无新资讯</p>
-        </div>
-      
+      <div class="news-list">
+        
+        <article class="news-item">
+          <h3><a href="https://marginlab.ai/trackers/claude-code/" target="_blank" rel="noopener">Claude Code 每日基准测试 - 追踪性能变化</a></h3>
+          <p>MarginLab 推出的 Claude Code 性能追踪器，每日运行基准测试监控模型退化情况，帮助开发者了解 AI 编程助手的稳定性。</p>
+          <div class="news-meta">
+            <span>📍 Hacker News</span>
+            <span class="tag hot">🔥 149 points</span>
+            <span class="tag">Claude Code</span>
+          </div>
+        </article>
+
+        <article class="news-item">
+          <h3><a href="https://github.com/moltbot/moltbot" target="_blank" rel="noopener">Moltbot - 你的私人 AI 助手，全平台支持</a></h3>
+          <p>开源个人 AI 助手，支持任意操作系统和平台。可连接多种 LLM，提供对话、自动化、定时任务等功能。今日 GitHub Trending 热门项目。</p>
+          <div class="news-meta">
+            <span>📍 GitHub Trending</span>
+            <span class="tag">AI Assistant</span>
+          </div>
+        </article>
+
+        <article class="news-item">
+          <h3><a href="https://github.com/badlogic/pi-mono" target="_blank" rel="noopener">Pi-Mono: AI Agent 工具包 - CLI 编程助手</a></h3>
+          <p>全功能 AI Agent 开发套件：包含编程助手 CLI、统一 LLM API、TUI/Web UI 库、Slack 机器人、vLLM 部署支持。</p>
+          <div class="news-meta">
+            <span>📍 GitHub Trending</span>
+            <span class="tag">Coding Agent</span>
+          </div>
+        </article>
+
+        <article class="news-item">
+          <h3><a href="https://github.com/MoonshotAI/kimi-cli" target="_blank" rel="noopener">Kimi Code CLI - 月之暗面的命令行 AI 编程助手</a></h3>
+          <p>MoonshotAI (月之暗面) 推出的 CLI AI 编程工具，在终端中提供智能代码补全和对话能力。</p>
+          <div class="news-meta">
+            <span>📍 GitHub Trending</span>
+            <span class="tag">CLI Agent</span>
+          </div>
+        </article>
+
+        <article class="news-item">
+          <h3><a href="https://github.com/asgeirtj/system_prompts_leaks" target="_blank" rel="noopener">主流 AI 聊天机器人 System Prompt 泄露合集</a></h3>
+          <p>收集了 ChatGPT、Claude、Gemini 等主流 AI 产品的系统提示词。对于理解 AI 助手如何设计和调优很有参考价值。</p>
+          <div class="news-meta">
+            <span>📍 GitHub Trending</span>
+            <span class="tag">Prompt Engineering</span>
+          </div>
+        </article>
+
+        <article class="news-item">
+          <h3><a href="https://github.com/NevaMind-AI/memU" target="_blank" rel="noopener">memU - 24/7 主动式 AI Agent 的记忆系统</a></h3>
+          <p>专为长期运行的 AI Agent 设计的记忆管理系统，支持 Moltbot (Clawdbot) 等主动式助手的上下文持久化。</p>
+          <div class="news-meta">
+            <span>📍 GitHub Trending</span>
+            <span class="tag">Agent Memory</span>
+          </div>
+        </article>
+
+        <article class="news-item">
+          <h3><a href="https://github.com/modelcontextprotocol/ext-apps" target="_blank" rel="noopener">MCP Apps - AI 聊天机器人嵌入式 UI 标准协议</a></h3>
+          <p>Model Context Protocol 官方推出的 Apps 协议规范和 SDK，定义了 AI 聊天机器人中嵌入式 UI 的标准，由 MCP Server 提供服务。</p>
+          <div class="news-meta">
+            <span>📍 GitHub Trending</span>
+            <span class="tag">MCP Protocol</span>
+          </div>
+        </article>
+
+        <article class="news-item">
+          <h3><a href="https://playground.shaped.ai" target="_blank" rel="noopener">ShapedQL - 多阶段排序和 RAG 的 SQL 引擎</a></h3>
+          <p>Show HN 项目：专为多阶段排序和 RAG (检索增强生成) 场景设计的 SQL 查询引擎，简化 AI 应用的数据检索流程。</p>
+          <div class="news-meta">
+            <span>📍 Hacker News</span>
+            <span class="tag hot">40 points</span>
+            <span class="tag">RAG</span>
+          </div>
+        </article>
+
+        <article class="news-item">
+          <h3><a href="https://github.com/lukilabs/beautiful-mermaid" target="_blank" rel="noopener">Beautiful Mermaid - 将图表渲染为 SVG 或 ASCII</a></h3>
+          <p>将 Mermaid 图表渲染为高质量 SVG 或 ASCII 艺术。对于在 CLI 或文档中展示流程图、架构图非常实用。</p>
+          <div class="news-meta">
+            <span>📍 Hacker News</span>
+            <span class="tag hot">🔥 345 points</span>
+            <span class="tag">Developer Tools</span>
+          </div>
+        </article>
+
+        <article class="news-item">
+          <h3><a href="https://www.arcee.ai/blog/trinity-large" target="_blank" rel="noopener">Trinity Large: 开源 400B 稀疏 MoE 模型</a></h3>
+          <p>Arcee AI 发布的开源 400B 参数稀疏混合专家模型，为开发者提供了强大的自托管 LLM 选择。</p>
+          <div class="news-meta">
+            <span>📍 Hacker News</span>
+            <span class="tag hot">🔥 222 points</span>
+            <span class="tag">Open Source LLM</span>
+          </div>
+        </article>
+
+      </div>
     </main>
     
     <footer>
-      <p>由 Moltbot 自动抓取生成</p>
-      <a href="archive.html" class="archive-link">📚 查看历史归档</a>
+      <p>由 Moltbot 自动抓取生成 · 每日 00:00 更新</p>
     </footer>
   </div>
 </body>

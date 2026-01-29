@@ -1,0 +1,80 @@
+{
+  "date": "2026-01-30",
+  "fetchedAt": "2026-01-30T00:04:00+08:00",
+  "news": [
+    {
+      "title": "Claude Code 每日基准测试 - 追踪性能变化",
+      "url": "https://marginlab.ai/trackers/claude-code/",
+      "description": "MarginLab 推出的 Claude Code 性能追踪器，每日运行基准测试监控模型退化情况",
+      "source": "Hacker News",
+      "points": 149,
+      "tag": "Claude Code"
+    },
+    {
+      "title": "Moltbot - 你的私人 AI 助手",
+      "url": "https://github.com/moltbot/moltbot",
+      "description": "开源个人 AI 助手，支持任意操作系统和平台",
+      "source": "GitHub Trending",
+      "tag": "AI Assistant"
+    },
+    {
+      "title": "Pi-Mono: AI Agent 工具包",
+      "url": "https://github.com/badlogic/pi-mono",
+      "description": "全功能 AI Agent 开发套件：编程助手 CLI、统一 LLM API、TUI/Web UI 库",
+      "source": "GitHub Trending",
+      "tag": "Coding Agent"
+    },
+    {
+      "title": "Kimi Code CLI",
+      "url": "https://github.com/MoonshotAI/kimi-cli",
+      "description": "月之暗面推出的 CLI AI 编程工具",
+      "source": "GitHub Trending",
+      "tag": "CLI Agent"
+    },
+    {
+      "title": "System Prompts 泄露合集",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "description": "ChatGPT、Claude、Gemini 等 AI 产品的系统提示词收集",
+      "source": "GitHub Trending",
+      "tag": "Prompt Engineering"
+    },
+    {
+      "title": "memU - AI Agent 记忆系统",
+      "url": "https://github.com/NevaMind-AI/memU",
+      "description": "专为 24/7 主动式 AI Agent 设计的记忆管理系统",
+      "source": "GitHub Trending",
+      "tag": "Agent Memory"
+    },
+    {
+      "title": "MCP Apps 协议",
+      "url": "https://github.com/modelcontextprotocol/ext-apps",
+      "description": "AI 聊天机器人嵌入式 UI 标准协议规范和 SDK",
+      "source": "GitHub Trending",
+      "tag": "MCP Protocol"
+    },
+    {
+      "title": "ShapedQL - RAG SQL 引擎",
+      "url": "https://playground.shaped.ai",
+      "description": "专为多阶段排序和 RAG 场景设计的 SQL 查询引擎",
+      "source": "Hacker News",
+      "points": 40,
+      "tag": "RAG"
+    },
+    {
+      "title": "Beautiful Mermaid",
+      "url": "https://github.com/lukilabs/beautiful-mermaid",
+      "description": "将 Mermaid 图表渲染为 SVG 或 ASCII 艺术",
+      "source": "Hacker News",
+      "points": 345,
+      "tag": "Developer Tools"
+    },
+    {
+      "title": "Trinity Large 400B MoE",
+      "url": "https://www.arcee.ai/blog/trinity-large",
+      "description": "Arcee AI 发布的开源 400B 参数稀疏混合专家模型",
+      "source": "Hacker News",
+      "points": 222,
+      "tag": "Open Source LLM"
+    }
+  ]
+}
