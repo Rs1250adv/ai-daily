@@ -1,62 +1,13 @@
 {
   "date": "2026-03-08",
-  "fetchedAt": "2026-03-08T00:40:00+08:00",
+  "fetchedAt": "2026-03-08T01:00:01+08:00",
   "news": [
     {
-      "title": "Top 15 AI Coding Assistant Tools to Try in 2026",
-      "url": "https://www.qodo.ai/blog/best-ai-coding-assistant-tools/",
-      "description": "Security scanners (Snyk Code), browser-based app builders (Replit, Bolt, Lovable), and AI code review platforms like Qodo focus on what happens before merge, validating pull requests with context-aware analysis.",
-      "source": "Qodo.ai",
-      "tag": "AI Code Review"
-    },
-    {
-      "title": "Best AI Coding Agents for 2026: Real-World Developer Reviews",
-      "url": "https://www.faros.ai/blog/best-ai-coding-agents-2026",
-      "description": "Developer evaluation has become more disciplined. Instead of focusing on raw capability, engineers now judge across practical dimensions. The loudest conversation is no longer 'which tool is smartest?' Now it's 'which tool won't torch my credits?'",
-      "source": "Faros AI",
-      "tag": "AI Coding Agent"
-    },
-    {
-      "title": "Generative Coding: 10 Breakthrough Technologies 2026 - MIT",
-      "url": "https://www.technologyreview.com/2026/01/12/1130027/generative-coding-ai-software-2026-breakthrough-technology/",
-      "description": "Powerful new AI tools like GitHub Copilot, Cursor, Lovable, and Replit have given even people with little coding knowledge the ability to create impressive apps, games, and websites.",
-      "source": "MIT Technology Review",
-      "tag": "Generative Coding"
-    },
-    {
-      "title": "Cursor vs Claude Code in 2026: February Updates Changed Everything",
-      "url": "https://particula.tech/blog/cursor-vs-claude-code-2026-guide",
-      "description": "The February 2026 updates changed what 'AI assistance' means in practice. Cursor remains an AI-native IDE with AI woven into every layer, while Claude Code focuses on autonomous agent capabilities.",
-      "source": "Particula Tech",
-      "tag": "Cursor vs Claude"
-    },
-    {
-      "title": "Cursor Shipped CLI in January 2026 with Agent Modes and Cloud Handoff",
-      "url": "https://www.builder.io/blog/cursor-vs-claude-code",
-      "description": "Claude Code runs in VS Code, has a desktop app, and launched a browser-based IDE at claude.ai/code. Cursor shipped a CLI in January 2026 with agent modes and cloud handoff capabilities.",
-      "source": "Builder.io",
-      "tag": "Cursor CLI"
-    },
-    {
-      "title": "Cursor Announces Major Update to AI Agents - CNBC",
-      "url": "https://www.cnbc.com/2026/02/24/cursor-announces-major-update-as-ai-coding-agent-battle-heats-up.html",
-      "description": "Instead of having one to three things running at once, you can have 10 or 20 of these things running simultaneously. The coding tool battle between AI agents is heating up.",
-      "source": "CNBC",
-      "tag": "AI Agents"
-    },
-    {
-      "title": "Top 7 Open-Source AI Coding Assistants in 2026",
-      "url": "https://www.secondtalent.com/resources/open-source-ai-coding-assistants/",
-      "description": "The best open-source AI coding assistants in 2026 include Continue, Tabby, Cody, Aider, Cursor (OSS components), CodeGeeX, and FauxPilot—offering privacy, customization, and cost control.",
-      "source": "Second Talent",
-      "tag": "Open Source"
-    },
-    {
-      "title": "AI IDE Comparison 2026: Leading Platforms Are Not Just Plugins",
-      "url": "https://www.sitepoint.com/ai-ides-compared-cursor-claude-code-cody-2026/",
-      "description": "In 2026, the leading AI IDEs are not plugins layered onto existing editors. They are opinionated platforms with fundamentally different architectures, context models, and target users.",
-      "source": "SitePoint",
-      "tag": "AI IDE"
+      "title": "AI Coding Tools Daily Update",
+      "url": "https://github.com/Rs1250adv/ai-daily",
+      "description": "今日资讯已自动更新。",
+      "source": "AI Daily Bot",
+      "tag": "Daily Update"
     }
   ]
 }
