@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI 编程工具日报 - 2026-01-30</title>
+  <title>AI 编程工具日报 - 2026-03-08</title>
   <style>
     :root {
       --bg: #0d1117;
@@ -76,9 +76,10 @@
       border-radius: 4px;
       font-size: 0.75rem;
     }
-    .hot {
-      background: rgba(255, 107, 107, 0.1);
-      color: #ff6b6b;
+    .empty {
+      text-align: center;
+      padding: 3rem;
+      color: var(--text-muted);
     }
     footer {
       margin-top: 3rem;
@@ -88,117 +89,109 @@
       color: var(--text-muted);
       font-size: 0.85rem;
     }
+    .archive-link {
+      display: inline-block;
+      margin-top: 1rem;
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .badge {
+      display: inline-block;
+      background: linear-gradient(135deg, #238636 0%, #2ea043 100%);
+      color: white;
+      padding: 0.2rem 0.6rem;
+      border-radius: 12px;
+      font-size: 0.75rem;
+      margin-left: 0.5rem;
+    }
   </style>
 </head>
 <body>
   <div class="container">
     <header>
       <h1>🤖 AI 编程工具日报</h1>
-      <p class="date">2026-01-30</p>
+      <p class="date">2026-03-08 <span class="badge">已修复</span></p>
     </header>
     
     <main>
       <div class="news-list">
+        <article class="news-item">
+          <h3><a href="https://www.qodo.ai/blog/best-ai-coding-assistant-tools/" target="_blank" rel="noopener">Top 15 AI Coding Assistant Tools to Try in 2026</a></h3>
+          <p>Security scanners (Snyk Code), browser-based app builders (Replit, Bolt, Lovable), and AI code review platforms like Qodo focus on what happens before merge, validating pull requests with context-aware analysis.</p>
+          <div class="news-meta">
+            <span>📍 Qodo.ai</span>
+            <span class="tag">AI Code Review</span>
+          </div>
+        </article>
         
         <article class="news-item">
-          <h3><a href="https://marginlab.ai/trackers/claude-code/" target="_blank" rel="noopener">Claude Code 每日基准测试 - 追踪性能变化</a></h3>
-          <p>MarginLab 推出的 Claude Code 性能追踪器，每日运行基准测试监控模型退化情况，帮助开发者了解 AI 编程助手的稳定性。</p>
+          <h3><a href="https://www.faros.ai/blog/best-ai-coding-agents-2026" target="_blank" rel="noopener">Best AI Coding Agents for 2026: Real-World Developer Reviews</a></h3>
+          <p>Developer evaluation has become more disciplined. Instead of focusing on raw capability, engineers now judge across practical dimensions. The loudest conversation is no longer 'which tool is smartest?' Now it's 'which tool won't torch my credits?'</p>
           <div class="news-meta">
-            <span>📍 Hacker News</span>
-            <span class="tag hot">🔥 149 points</span>
-            <span class="tag">Claude Code</span>
+            <span>📍 Faros AI</span>
+            <span class="tag">AI Coding Agent</span>
           </div>
         </article>
-
+        
         <article class="news-item">
-          <h3><a href="https://github.com/moltbot/moltbot" target="_blank" rel="noopener">Moltbot - 你的私人 AI 助手，全平台支持</a></h3>
-          <p>开源个人 AI 助手，支持任意操作系统和平台。可连接多种 LLM，提供对话、自动化、定时任务等功能。今日 GitHub Trending 热门项目。</p>
+          <h3><a href="https://www.technologyreview.com/2026/01/12/1130027/generative-coding-ai-software-2026-breakthrough-technology/" target="_blank" rel="noopener">Generative Coding: 10 Breakthrough Technologies 2026 - MIT</a></h3>
+          <p>Powerful new AI tools like GitHub Copilot, Cursor, Lovable, and Replit have given even people with little coding knowledge the ability to create impressive apps, games, and websites.</p>
           <div class="news-meta">
-            <span>📍 GitHub Trending</span>
-            <span class="tag">AI Assistant</span>
+            <span>📍 MIT Technology Review</span>
+            <span class="tag">Generative Coding</span>
           </div>
         </article>
-
+        
         <article class="news-item">
-          <h3><a href="https://github.com/badlogic/pi-mono" target="_blank" rel="noopener">Pi-Mono: AI Agent 工具包 - CLI 编程助手</a></h3>
-          <p>全功能 AI Agent 开发套件：包含编程助手 CLI、统一 LLM API、TUI/Web UI 库、Slack 机器人、vLLM 部署支持。</p>
+          <h3><a href="https://particula.tech/blog/cursor-vs-claude-code-2026-guide" target="_blank" rel="noopener">Cursor vs Claude Code in 2026: February Updates Changed Everything</a></h3>
+          <p>The February 2026 updates changed what 'AI assistance' means in practice. Cursor remains an AI-native IDE with AI woven into every layer, while Claude Code focuses on autonomous agent capabilities.</p>
           <div class="news-meta">
-            <span>📍 GitHub Trending</span>
-            <span class="tag">Coding Agent</span>
+            <span>📍 Particula Tech</span>
+            <span class="tag">Cursor vs Claude</span>
           </div>
         </article>
-
+        
         <article class="news-item">
-          <h3><a href="https://github.com/MoonshotAI/kimi-cli" target="_blank" rel="noopener">Kimi Code CLI - 月之暗面的命令行 AI 编程助手</a></h3>
-          <p>MoonshotAI (月之暗面) 推出的 CLI AI 编程工具，在终端中提供智能代码补全和对话能力。</p>
+          <h3><a href="https://www.builder.io/blog/cursor-vs-claude-code" target="_blank" rel="noopener">Cursor Shipped CLI in January 2026 with Agent Modes and Cloud Handoff</a></h3>
+          <p>Claude Code runs in VS Code, has a desktop app, and launched a browser-based IDE at claude.ai/code. Cursor shipped a CLI in January 2026 with agent modes and cloud handoff capabilities.</p>
           <div class="news-meta">
-            <span>📍 GitHub Trending</span>
-            <span class="tag">CLI Agent</span>
+            <span>📍 Builder.io</span>
+            <span class="tag">Cursor CLI</span>
           </div>
         </article>
-
+        
         <article class="news-item">
-          <h3><a href="https://github.com/asgeirtj/system_prompts_leaks" target="_blank" rel="noopener">主流 AI 聊天机器人 System Prompt 泄露合集</a></h3>
-          <p>收集了 ChatGPT、Claude、Gemini 等主流 AI 产品的系统提示词。对于理解 AI 助手如何设计和调优很有参考价值。</p>
+          <h3><a href="https://www.cnbc.com/2026/02/24/cursor-announces-major-update-as-ai-coding-agent-battle-heats-up.html" target="_blank" rel="noopener">Cursor Announces Major Update to AI Agents - CNBC</a></h3>
+          <p>Instead of having one to three things running at once, you can have 10 or 20 of these things running simultaneously. The coding tool battle between AI agents is heating up.</p>
           <div class="news-meta">
-            <span>📍 GitHub Trending</span>
-            <span class="tag">Prompt Engineering</span>
+            <span>📍 CNBC</span>
+            <span class="tag">AI Agents</span>
           </div>
         </article>
-
+        
         <article class="news-item">
-          <h3><a href="https://github.com/NevaMind-AI/memU" target="_blank" rel="noopener">memU - 24/7 主动式 AI Agent 的记忆系统</a></h3>
-          <p>专为长期运行的 AI Agent 设计的记忆管理系统，支持 Moltbot (Clawdbot) 等主动式助手的上下文持久化。</p>
+          <h3><a href="https://www.secondtalent.com/resources/open-source-ai-coding-assistants/" target="_blank" rel="noopener">Top 7 Open-Source AI Coding Assistants in 2026</a></h3>
+          <p>The best open-source AI coding assistants in 2026 include Continue, Tabby, Cody, Aider, Cursor (OSS components), CodeGeeX, and FauxPilot—offering privacy, customization, and cost control.</p>
           <div class="news-meta">
-            <span>📍 GitHub Trending</span>
-            <span class="tag">Agent Memory</span>
+            <span>📍 Second Talent</span>
+            <span class="tag">Open Source</span>
           </div>
         </article>
-
+        
         <article class="news-item">
-          <h3><a href="https://github.com/modelcontextprotocol/ext-apps" target="_blank" rel="noopener">MCP Apps - AI 聊天机器人嵌入式 UI 标准协议</a></h3>
-          <p>Model Context Protocol 官方推出的 Apps 协议规范和 SDK，定义了 AI 聊天机器人中嵌入式 UI 的标准，由 MCP Server 提供服务。</p>
+          <h3><a href="https://www.sitepoint.com/ai-ides-compared-cursor-claude-code-cody-2026/" target="_blank" rel="noopener">AI IDE Comparison 2026: Leading Platforms Are Not Just Plugins</a></h3>
+          <p>In 2026, the leading AI IDEs are not plugins layered onto existing editors. They are opinionated platforms with fundamentally different architectures, context models, and target users.</p>
           <div class="news-meta">
-            <span>📍 GitHub Trending</span>
-            <span class="tag">MCP Protocol</span>
+            <span>📍 SitePoint</span>
+            <span class="tag">AI IDE</span>
           </div>
         </article>
-
-        <article class="news-item">
-          <h3><a href="https://playground.shaped.ai" target="_blank" rel="noopener">ShapedQL - 多阶段排序和 RAG 的 SQL 引擎</a></h3>
-          <p>Show HN 项目：专为多阶段排序和 RAG (检索增强生成) 场景设计的 SQL 查询引擎，简化 AI 应用的数据检索流程。</p>
-          <div class="news-meta">
-            <span>📍 Hacker News</span>
-            <span class="tag hot">40 points</span>
-            <span class="tag">RAG</span>
-          </div>
-        </article>
-
-        <article class="news-item">
-          <h3><a href="https://github.com/lukilabs/beautiful-mermaid" target="_blank" rel="noopener">Beautiful Mermaid - 将图表渲染为 SVG 或 ASCII</a></h3>
-          <p>将 Mermaid 图表渲染为高质量 SVG 或 ASCII 艺术。对于在 CLI 或文档中展示流程图、架构图非常实用。</p>
-          <div class="news-meta">
-            <span>📍 Hacker News</span>
-            <span class="tag hot">🔥 345 points</span>
-            <span class="tag">Developer Tools</span>
-          </div>
-        </article>
-
-        <article class="news-item">
-          <h3><a href="https://www.arcee.ai/blog/trinity-large" target="_blank" rel="noopener">Trinity Large: 开源 400B 稀疏 MoE 模型</a></h3>
-          <p>Arcee AI 发布的开源 400B 参数稀疏混合专家模型，为开发者提供了强大的自托管 LLM 选择。</p>
-          <div class="news-meta">
-            <span>📍 Hacker News</span>
-            <span class="tag hot">🔥 222 points</span>
-            <span class="tag">Open Source LLM</span>
-          </div>
-        </article>
-
       </div>
     </main>
     
     <footer>
-      <p>由 Moltbot 自动抓取生成 · 每日 00:00 更新</p>
+      <p>由 OpenClaw Agent 自动抓取生成</p>
+      <a href="archive.html" class="archive-link">📚 查看历史归档</a>
     </footer>
   </div>
 </body>
