@@ -36,6 +36,7 @@
       -webkit-text-fill-color: transparent;
       margin-bottom: 0.5rem;
     }
+    .subtitle { color: var(--text-muted); font-size: 0.9rem; margin-top: 0.5rem; }
     .date { color: var(--text-muted); font-size: 0.9rem; }
     .news-list { display: flex; flex-direction: column; gap: 1rem; }
     .news-item {
@@ -68,12 +69,20 @@
       gap: 1rem;
       font-size: 0.8rem;
       color: var(--text-muted);
+      flex-wrap: wrap;
     }
     .tag {
+      background: rgba(163, 113, 247, 0.1);
+      color: #a371f7;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      font-size: 0.75rem;
+    }
+    .source-badge {
       background: rgba(88, 166, 255, 0.1);
       color: var(--accent);
       padding: 0.2rem 0.5rem;
-      border-radius: 4px;
+      border-radius: 12px;
       font-size: 0.75rem;
     }
     .empty {
@@ -89,20 +98,11 @@
       color: var(--text-muted);
       font-size: 0.85rem;
     }
-    .archive-link {
-      display: inline-block;
-      margin-top: 1rem;
-      color: var(--accent);
-      text-decoration: none;
-    }
-    .badge {
-      display: inline-block;
-      background: linear-gradient(135deg, #238636 0%, #2ea043 100%);
-      color: white;
-      padding: 0.2rem 0.6rem;
-      border-radius: 12px;
-      font-size: 0.75rem;
-      margin-left: 0.5rem;
+    .stats {
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2rem;
     }
   </style>
 </head>
@@ -110,88 +110,117 @@
   <div class="container">
     <header>
       <h1>🤖 AI 编程工具日报</h1>
-      <p class="date">2026-03-08 <span class="badge">已修复</span></p>
+      <p class="date">2026-03-08</p>
+      <p class="subtitle">使用 Python requests + BeautifulSoup 抓取</p>
     </header>
     
+    <p class="stats">今日抓取 11 条资讯</p>
+    
     <main>
-      <div class="news-list">
-        <article class="news-item">
-          <h3><a href="https://www.qodo.ai/blog/best-ai-coding-assistant-tools/" target="_blank" rel="noopener">Top 15 AI Coding Assistant Tools to Try in 2026</a></h3>
-          <p>Security scanners (Snyk Code), browser-based app builders (Replit, Bolt, Lovable), and AI code review platforms like Qodo focus on what happens before merge, validating pull requests with context-aware analysis.</p>
-          <div class="news-meta">
-            <span>📍 Qodo.ai</span>
-            <span class="tag">AI Code Review</span>
-          </div>
-        </article>
-        
-        <article class="news-item">
-          <h3><a href="https://www.faros.ai/blog/best-ai-coding-agents-2026" target="_blank" rel="noopener">Best AI Coding Agents for 2026: Real-World Developer Reviews</a></h3>
-          <p>Developer evaluation has become more disciplined. Instead of focusing on raw capability, engineers now judge across practical dimensions. The loudest conversation is no longer 'which tool is smartest?' Now it's 'which tool won't torch my credits?'</p>
-          <div class="news-meta">
-            <span>📍 Faros AI</span>
-            <span class="tag">AI Coding Agent</span>
-          </div>
-        </article>
-        
-        <article class="news-item">
-          <h3><a href="https://www.technologyreview.com/2026/01/12/1130027/generative-coding-ai-software-2026-breakthrough-technology/" target="_blank" rel="noopener">Generative Coding: 10 Breakthrough Technologies 2026 - MIT</a></h3>
-          <p>Powerful new AI tools like GitHub Copilot, Cursor, Lovable, and Replit have given even people with little coding knowledge the ability to create impressive apps, games, and websites.</p>
-          <div class="news-meta">
-            <span>📍 MIT Technology Review</span>
-            <span class="tag">Generative Coding</span>
-          </div>
-        </article>
-        
-        <article class="news-item">
-          <h3><a href="https://particula.tech/blog/cursor-vs-claude-code-2026-guide" target="_blank" rel="noopener">Cursor vs Claude Code in 2026: February Updates Changed Everything</a></h3>
-          <p>The February 2026 updates changed what 'AI assistance' means in practice. Cursor remains an AI-native IDE with AI woven into every layer, while Claude Code focuses on autonomous agent capabilities.</p>
-          <div class="news-meta">
-            <span>📍 Particula Tech</span>
-            <span class="tag">Cursor vs Claude</span>
-          </div>
-        </article>
-        
-        <article class="news-item">
-          <h3><a href="https://www.builder.io/blog/cursor-vs-claude-code" target="_blank" rel="noopener">Cursor Shipped CLI in January 2026 with Agent Modes and Cloud Handoff</a></h3>
-          <p>Claude Code runs in VS Code, has a desktop app, and launched a browser-based IDE at claude.ai/code. Cursor shipped a CLI in January 2026 with agent modes and cloud handoff capabilities.</p>
-          <div class="news-meta">
-            <span>📍 Builder.io</span>
-            <span class="tag">Cursor CLI</span>
-          </div>
-        </article>
-        
-        <article class="news-item">
-          <h3><a href="https://www.cnbc.com/2026/02/24/cursor-announces-major-update-as-ai-coding-agent-battle-heats-up.html" target="_blank" rel="noopener">Cursor Announces Major Update to AI Agents - CNBC</a></h3>
-          <p>Instead of having one to three things running at once, you can have 10 or 20 of these things running simultaneously. The coding tool battle between AI agents is heating up.</p>
-          <div class="news-meta">
-            <span>📍 CNBC</span>
-            <span class="tag">AI Agents</span>
-          </div>
-        </article>
-        
-        <article class="news-item">
-          <h3><a href="https://www.secondtalent.com/resources/open-source-ai-coding-assistants/" target="_blank" rel="noopener">Top 7 Open-Source AI Coding Assistants in 2026</a></h3>
-          <p>The best open-source AI coding assistants in 2026 include Continue, Tabby, Cody, Aider, Cursor (OSS components), CodeGeeX, and FauxPilot—offering privacy, customization, and cost control.</p>
-          <div class="news-meta">
-            <span>📍 Second Talent</span>
-            <span class="tag">Open Source</span>
-          </div>
-        </article>
-        
-        <article class="news-item">
-          <h3><a href="https://www.sitepoint.com/ai-ides-compared-cursor-claude-code-cody-2026/" target="_blank" rel="noopener">AI IDE Comparison 2026: Leading Platforms Are Not Just Plugins</a></h3>
-          <p>In 2026, the leading AI IDEs are not plugins layered onto existing editors. They are opinionated platforms with fundamentally different architectures, context models, and target users.</p>
-          <div class="news-meta">
-            <span>📍 SitePoint</span>
-            <span class="tag">AI IDE</span>
-          </div>
-        </article>
-      </div>
+      
+      <article class="news-item">
+        <h3><a href="https://github.com/astral-sh/uv/pull/17643" target="_blank" rel="noopener">"Warn about PyPy being unmaintained"</a></h3>
+        <p>Hacker News 热门讨论</p>
+        <div class="news-meta">
+          <span class="source-badge">Hacker News</span>
+          <span class="tag">社区讨论</span>
+        </div>
+      </article>
+      
+      <article class="news-item">
+        <h3><a href="https://cacm.acm.org/research/a-decade-of-docker-containers/" target="_blank" rel="noopener">A decade of Docker containers</a></h3>
+        <p>Hacker News 热门讨论</p>
+        <div class="news-meta">
+          <span class="source-badge">Hacker News</span>
+          <span class="tag">社区讨论</span>
+        </div>
+      </article>
+      
+      <article class="news-item">
+        <h3><a href="https://www.lloydslist.com/LL1156532/They-all-said-Hormuz-closure-would-be-brief-What-if-they-were-wrong" target="_blank" rel="noopener">They all said Hormuz closure would be brief. What if they were wrong?</a></h3>
+        <p>Hacker News 热门讨论</p>
+        <div class="news-meta">
+          <span class="source-badge">Hacker News</span>
+          <span class="tag">社区讨论</span>
+        </div>
+      </article>
+      
+      <article class="news-item">
+        <h3><a href="https://github.com/karpathy/autoresearch" target="_blank" rel="noopener">Autoresearch: Agents researching on single-GPU nanochat training automatically</a></h3>
+        <p>Hacker News 热门讨论</p>
+        <div class="news-meta">
+          <span class="source-badge">Hacker News</span>
+          <span class="tag">社区讨论</span>
+        </div>
+      </article>
+      
+      <article class="news-item">
+        <h3><a href="https://justinjackson.ca/claude-code-ruin" target="_blank" rel="noopener">Will Claude Code ruin our team?</a></h3>
+        <p>Hacker News 热门讨论</p>
+        <div class="news-meta">
+          <span class="source-badge">Hacker News</span>
+          <span class="tag">社区讨论</span>
+        </div>
+      </article>
+      
+      <article class="news-item">
+        <h3><a href="https://mariozechner.at/posts/2024-07-20-macos-code-injection-fun/" target="_blank" rel="noopener">macOS code injection for fun and no profit (2024)</a></h3>
+        <p>Hacker News 热门讨论</p>
+        <div class="news-meta">
+          <span class="source-badge">Hacker News</span>
+          <span class="tag">社区讨论</span>
+        </div>
+      </article>
+      
+      <article class="news-item">
+        <h3><a href="https://github.com/qingchencloud/clawapp" target="_blank" rel="noopener">📦 qingchencloud/clawapp</a></h3>
+        <p>📱 ClawApp — OpenClaw AI 智能体手机聊天客户端 | 流式对话 · 图片收发 · 工具调用 · PWA + APK | Mobile chat client for OpenClaw AI Agent</p>
+        <div class="news-meta">
+          <span class="source-badge">GitHub</span>
+          <span class="tag">开源项目</span>
+        </div>
+      </article>
+      
+      <article class="news-item">
+        <h3><a href="https://github.com/Agions/ClipFlowCut" target="_blank" rel="noopener">📦 Agions/ClipFlowCut</a></h3>
+        <p>ClipFlowCut 是专业的 AI 驱动 视频创作桌面应用，区别于传统手动剪辑软件（如 Premiere、Final Cut），ClipFlowCut 通过 AI 实现自动化创作。</p>
+        <div class="news-meta">
+          <span class="source-badge">GitHub</span>
+          <span class="tag">开源项目</span>
+        </div>
+      </article>
+      
+      <article class="news-item">
+        <h3><a href="https://github.com/nguyenduchoai/bizclaw" target="_blank" rel="noopener">📦 nguyenduchoai/bizclaw</a></h3>
+        <p>BizClaw là nền tảng AI Agent kiến trúc trait-driven, có thể chạy mọi nơi — từ Raspberry Pi đến cloud server. Hỗ trợ nhiề</p>
+        <div class="news-meta">
+          <span class="source-badge">GitHub</span>
+          <span class="tag">开源项目</span>
+        </div>
+      </article>
+      
+      <article class="news-item">
+        <h3><a href="https://github.com/4thfever/cultivation-world-simulator" target="_blank" rel="noopener">📦 4thfever/cultivation-world-simulator</a></h3>
+        <p>基于 AI Agent 工作流的修仙世界模拟器，旨在还原智能、开放的仙侠世界。| An open-source Cultivation World Simulator using Agentic Workflow to create a d</p>
+        <div class="news-meta">
+          <span class="source-badge">GitHub</span>
+          <span class="tag">开源项目</span>
+        </div>
+      </article>
+      
+      <article class="news-item">
+        <h3><a href="https://github.com/decocms/mesh" target="_blank" rel="noopener">📦 decocms/mesh</a></h3>
+        <p>One secure endpoint for every MCP server. Deploy anywhere.</p>
+        <div class="news-meta">
+          <span class="source-badge">GitHub</span>
+          <span class="tag">开源项目</span>
+        </div>
+      </article>
+      
     </main>
     
     <footer>
-      <p>由 OpenClaw Agent 自动抓取生成</p>
-      <a href="archive.html" class="archive-link">📚 查看历史归档</a>
+      <p>由 OpenClaw Bot 自动抓取生成</p>
     </footer>
   </div>
 </body>

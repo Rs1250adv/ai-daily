@@ -1,13 +1,87 @@
 {
   "date": "2026-03-08",
-  "fetchedAt": "2026-03-08T01:00:01+08:00",
   "news": [
     {
-      "title": "AI Coding Tools Daily Update",
-      "url": "https://github.com/Rs1250adv/ai-daily",
-      "description": "今日资讯已自动更新。",
-      "source": "AI Daily Bot",
-      "tag": "Daily Update"
+      "title": "\"Warn about PyPy being unmaintained\"",
+      "url": "https://github.com/astral-sh/uv/pull/17643",
+      "description": "Hacker News 热门讨论",
+      "source": "Hacker News",
+      "category": "社区讨论"
+    },
+    {
+      "title": "A decade of Docker containers",
+      "url": "https://cacm.acm.org/research/a-decade-of-docker-containers/",
+      "description": "Hacker News 热门讨论",
+      "source": "Hacker News",
+      "category": "社区讨论"
+    },
+    {
+      "title": "They all said Hormuz closure would be brief. What if they were wrong?",
+      "url": "https://www.lloydslist.com/LL1156532/They-all-said-Hormuz-closure-would-be-brief-What-if-they-were-wrong",
+      "description": "Hacker News 热门讨论",
+      "source": "Hacker News",
+      "category": "社区讨论"
+    },
+    {
+      "title": "Autoresearch: Agents researching on single-GPU nanochat training automatically",
+      "url": "https://github.com/karpathy/autoresearch",
+      "description": "Hacker News 热门讨论",
+      "source": "Hacker News",
+      "category": "社区讨论"
+    },
+    {
+      "title": "Will Claude Code ruin our team?",
+      "url": "https://justinjackson.ca/claude-code-ruin",
+      "description": "Hacker News 热门讨论",
+      "source": "Hacker News",
+      "category": "社区讨论"
+    },
+    {
+      "title": "macOS code injection for fun and no profit (2024)",
+      "url": "https://mariozechner.at/posts/2024-07-20-macos-code-injection-fun/",
+      "description": "Hacker News 热门讨论",
+      "source": "Hacker News",
+      "category": "社区讨论"
+    },
+    {
+      "title": "📦 qingchencloud/clawapp",
+      "url": "https://github.com/qingchencloud/clawapp",
+      "description": "📱 ClawApp — OpenClaw AI 智能体手机聊天客户端 | 流式对话 · 图片收发 · 工具调用 · PWA + APK | Mobile chat client for OpenClaw AI Agent",
+      "source": "GitHub",
+      "category": "开源项目",
+      "stars": 179
+    },
+    {
+      "title": "📦 Agions/ClipFlowCut",
+      "url": "https://github.com/Agions/ClipFlowCut",
+      "description": "ClipFlowCut 是专业的 AI 驱动 视频创作桌面应用，区别于传统手动剪辑软件（如 Premiere、Final Cut），ClipFlowCut 通过 AI 实现自动化创作。",
+      "source": "GitHub",
+      "category": "开源项目",
+      "stars": 239
+    },
+    {
+      "title": "📦 nguyenduchoai/bizclaw",
+      "url": "https://github.com/nguyenduchoai/bizclaw",
+      "description": "BizClaw là nền tảng AI Agent kiến trúc trait-driven, có thể chạy mọi nơi — từ Raspberry Pi đến cloud server. Hỗ trợ nhiề",
+      "source": "GitHub",
+      "category": "开源项目",
+      "stars": 152
+    },
+    {
+      "title": "📦 4thfever/cultivation-world-simulator",
+      "url": "https://github.com/4thfever/cultivation-world-simulator",
+      "description": "基于 AI Agent 工作流的修仙世界模拟器，旨在还原智能、开放的仙侠世界。| An open-source Cultivation World Simulator using Agentic Workflow to create a d",
+      "source": "GitHub",
+      "category": "开源项目",
+      "stars": 1267
+    },
+    {
+      "title": "📦 decocms/mesh",
+      "url": "https://github.com/decocms/mesh",
+      "description": "One secure endpoint for every MCP server. Deploy anywhere.",
+      "source": "GitHub",
+      "category": "开源项目",
+      "stars": 337
     }
   ]
 }
